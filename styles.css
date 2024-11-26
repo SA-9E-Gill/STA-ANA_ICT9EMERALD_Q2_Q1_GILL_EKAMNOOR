@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient(to bottom right, midnightblue, darkslateblue);
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+.page-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: gold;
+    text-shadow: 2px 2px 4px black;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: lightgray;
+    margin-bottom: 2rem;
+}
+
+.crypto-card {
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.crypto-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.image-container {
+    height: 200px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: lightgray; 
+    border-bottom: 1px solid darkgray;
+}
+
+.image-container img {
+    max-height: 100%; 
+    max-width: 100%; 
+    object-fit: contain; 
+}
+
+/* Table Styles */
+.table {
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.table th, .table td {
+    color: black;
+}
+
+.table thead {
+    background-color: lightgoldenrodyellow;
+}
+
+.table tbody tr:hover {
+    background-color: lightgray;
+}
